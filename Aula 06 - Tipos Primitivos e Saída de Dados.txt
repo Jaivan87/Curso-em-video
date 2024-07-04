@@ -1,0 +1,33 @@
+Os 4 tipos primitivos basicos:
+
+int - numeros inteiros
+7,-4, 0, 9875
+float - numeros reais ou pontos flutuantes
+4.5, 0.076, -15.223, 7.0
+bool - valores logicos ou boleanos
+True, False
+str - valores caracteres, ou strings
+'Olá', '7.5', ' '
+
+outro metodo de utilizar o print:
+print ('A soma é '  ,soma)
+
+print ('A soma é {}'.format (soma)) ou
+print('A soma entre {0} e {1} vale {2}'.format(n1, n2, s))
+
+
+n = float(input('Digite um valor: '))  # ponto flutuante
+n = str(input('Digite um valor: '))    # é uma string
+n = bool(input('Digite um valor: '))   # é verdadeiro ou falso
+print(type(n))  # qual o tipo de (n).
+
+n= input ('Digite Algo: ')
+print('O tipo primitivo desse valor é ', type(n))
+print('Só tem espaços? ',n.isspace()) # (n) tem espaços?
+print('É um número? ', n.isnumeric()) # (n) é um número?
+print('É alfabético? ', n.isalpha()) # (n) é alfbético?
+print('É alfanumérico? ', n.isalnum()) # (n) é um alfnumerico?
+print('Está em maiúsculas? ', n.isupper()) # (n) Está em maiúsculas?
+print('Está em minúsculas? ', n.islower()) # (n) Está em minúsculas?
+print('Está capitalizada? ', n.istitle()) # (n) Está Capitalizada (Inicia com maiúcula)?
+
