@@ -1,0 +1,51 @@
+Operadores Aritiméticos
+
++  Adição
+-  Subtração
+*  Multiplicação
+/  Divisão
+** Potência
+// Divisão inteira
+% resto da Divisão
+== significa igual (igualdade)
+= (recebe)
+
+- Todo operador precisa de "operendo". (pode ser um número, ou até variáveis que contém números)
+5 e 2 funcionam como operadores binérios. (um operador que precisa de dois operando).
+
+5+2 ==7 (inteiro)
+5-2 ==3 (inteiro)
+5*2 ==10 (inteiro)
+5/2 == 2,5(float)
+5**2 (5 elevado a 2) ==25  
+5//2 ==2 (divisão inteira)
+5%2 ==1 (resto da divisão) 5 divide para 2, e resta 1.
+...............................................................................................
+Ordem de Precedência
+1 ()
+2 **
+3 * / // %
+4 + -
+
+Ex:
+5+3*2
+5+6 = 11
+
+3*5+4**2
+3*5+16
+15+16 = 31
+
+3*(5+4)**2
+3*9**2
+3*81=243
+
+Raiz quadra
+é o numero elevado a (1/2)
+81 **(1/2) = 9
+25**(1/2) = 5 
+...............................................................................................
+
+No print o \n faz quebra a linha, e end=' ,' mantem a linha inteira
+
+print('A soma é {}, \n o produto é {} e a \n divisão é {:.3f}'.format(s, m, d), end=' ,')
+print('Divisão inteira {} e potência {}'.format(di, e))
