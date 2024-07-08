@@ -4,8 +4,13 @@
 #dezena: 3
 #centena: 8
 #milhar: 1
-n = input('Digite seu numero: ')
-print('Unidade:' ,n[3])
-print('dezena:' ,n[2])
-print('centena:',n[1])
-print('milhar:',n[0])
+num = int(input('Digite seu numero: '))
+u = num // 1 % 10  #divisão inteira por 1 e tirar o resto da divisão por 10
+d = num // 10 % 10 #divisão inteira por 10 e tirar o resto da divisão por 10
+c = num // 100 % 10 #divisão inteira por 100 e tirar o resto da divisão por 10
+m = num // 1000 % 10 #divisão inteira por 1000 e tirar o resto da divisão por 10
+print('Analisando o número {}'.format(num))
+print('Unidade:{}'.format(u))
+print('Dezena:{}'.format(d))
+print('Centena:{}'.format(c))
+print('Milhar:{}'.format(m))
